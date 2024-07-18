@@ -1,4 +1,4 @@
-# Sarkaft-DeepChem
+# Sarkaft-DeepChem as exmaple
 Developing a Model(regression model) to train  model using a library of 2,431 siRNA molecules, each 21 bases long. Every one of them has been tested experimentally and labeled with a value between 0 and 1, indicating how effective it is at silencing its target gene. Small values indicate ineffective molecules, while larger values indicate more effective ones. The model Takes the sequence as input and tries to predict the effectiveness.
 The predictive model for siRNA effectiveness offers a powerful tool for advancing scientific research and therapeutic development. By providing accurate predictions of siRNA activity, it supports the efficient and cost-effective design of gene-silencing molecules, ultimately contributing to advancements in gene therapy, functional genomics, and personalized medicine. The results from this model can be used to prioritize experimental efforts, deepen our understanding of RNA interference mechanisms, and accelerate the development of new treatments for genetic diseases.
 import tensorflow as tf
